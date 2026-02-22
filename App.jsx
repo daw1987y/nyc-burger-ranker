@@ -3,7 +3,7 @@ import { Search, GripVertical, Star, Trophy, MapPin, MessageSquare, Trash2, Plus
 
 // REPLACE THIS WITH YOUR FIREBASE CONFIG
 const FIREBASE_CONFIG = {
-  apiKey: "AIzaSyDf4YlQKv5c9lEK7IX4k8XZCdzkAAuC0bY",
+  apiKey: "process.env.REACT_APP_GOOGLE_API_KEY",
   authDomain: "burger-rating-app.firebaseapp.com",
   projectId: "burger-rating-app",
   storageBucket: "burger-rating-app.firebasestorage.app",
